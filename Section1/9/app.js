@@ -15,9 +15,9 @@
 // const AUTHOR = 2;
 var Role;
 (function (Role) {
-    Role[Role["ADMIN"] = 0] = "ADMIN";
-    Role[Role["READ_ONLEY"] = 1] = "READ_ONLEY";
-    Role[Role["AUTHOR"] = 2] = "AUTHOR";
+    Role[Role["ADMIN"] = 5] = "ADMIN";
+    Role[Role["READ_ONLEY"] = 6] = "READ_ONLEY";
+    Role[Role["AUTHOR"] = 7] = "AUTHOR";
 })(Role || (Role = {}));
 var person = {
     name: "Maximilian",

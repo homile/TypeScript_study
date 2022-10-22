@@ -17,7 +17,7 @@
 // const AUTHOR = 2;
 
 enum Role {
-  ADMIN,
+  ADMIN = 5,  // 5부터 시작
   READ_ONLEY,
   AUTHOR,
 }
